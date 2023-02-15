@@ -6,7 +6,18 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-
+ul > input {
+  margin: 0 10px;
+}
+ul > li {
+  padding: 5px;
+}
+ul > li > button {
+  box-shadow: 0 0 3px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 5px;
+}
 .header {
   background-color: orange;
   height: 60px;
